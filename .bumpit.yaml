@@ -1,0 +1,12 @@
+current_version: "202101.0.0"
+strategy:
+  name: "calver"
+  part: "auto"
+  version_format: "YYYYMM.MINOR.MICRO"
+commit:
+  author: "Tim Birkett <tim.birkett@devopsmakers.co.uk>"
+tag:
+  apply: False
+  format: "v{version}"
+auto_remote_push: False
+tracked_files: []
